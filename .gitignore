@@ -1,0 +1,10 @@
+# Données WikiArt : images sous droits, ne jamais les publier
+data/
+
+# Environnement Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Fichiers système macOS
+.DS_Store
