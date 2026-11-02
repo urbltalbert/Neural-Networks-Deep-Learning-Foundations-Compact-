@@ -1,0 +1,5 @@
+,test acc,size (MB),"latency / image (ms, 1 thread)",parameters
+classical (HOG + colour + svm rbf C=10),0.516,14.538,2.3715,
+dense network,0.388,25.1712,0.4829,6292229.0
+ResNet-18 frozen + logreg,0.768,44.8164,12.8552,11176512.0
+ResNet-18 fine-tuned,0.796,44.7933,12.4084,11179077.0
