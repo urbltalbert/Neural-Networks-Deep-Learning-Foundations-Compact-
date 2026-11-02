@@ -17,7 +17,7 @@ python make_wikiart_subset.py --label genre --classes portrait landscape citysca
 | Notebook | Content | Key number |
 |---|---|---|
 | `01_dense_baseline.ipynb` | Dense network 49 152 - 128 - 5 (6.3 M weights), split by artist | test accuracy 0.380 |
-| `02_monitoring_diagnosis.ipynb` | Train/validation curves, overfitting (gap 0.50), early stopping, diagnosis table | best epoch 4 of 30 |
+| `02_monitoring_diagnosis.ipynb` | Train/validation curves, overfitting (gap 0.53), early stopping, weight decay, dropout, cosine lr decay, diagnosis table | best epoch 4 of 30; no tool changes the val accuracy beyond the margin |
 | `03_pretrained_resnet.ipynb` | ResNet-18 pretrained on ImageNet: new head, then fine-tuning of `layer4` | test accuracy 0.772 |
 | `04_classical_vs_neural.ipynb` | Classical model vs dense vs ResNet: accuracy, size on disk, latency on 1 CPU thread | see below |
 
