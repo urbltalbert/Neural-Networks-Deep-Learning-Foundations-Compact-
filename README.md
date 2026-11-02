@@ -8,7 +8,7 @@ Classes: cityscape, landscape, portrait, religious_painting, still_life.
 The images are not in this repository (WikiArt licence). To rebuild the exact same subset:
 
 ```bash
-pip install "datasets>=3.0" pillow
+pip install -r requirements.txt
 python make_wikiart_subset.py --label genre --classes portrait landscape cityscape still_life religious_painting --per-class 300 --size 128 --out data/wikiart_genre5
 ```
 
