@@ -1,0 +1,25 @@
+# Tested with Python 3.13.5. Lower bounds = the versions the notebooks were run with.
+
+# Deep learning (notebooks 01 to 04)
+torch>=2.14.1
+torchvision>=0.29.1
+
+# Data and plots (notebooks 01 to 04)
+numpy>=2.3.4
+pandas>=2.2.3
+matplotlib>=3.10.0
+pillow>=11.1.0
+
+# Classical model of notebook 04 (HOG features, logistic regression, SVM)
+scikit-learn>=1.6.1
+scikit-image>=0.25.0
+
+# Rebuild the WikiArt subset (make_wikiart_subset.py)
+datasets>=3.0
+
+# Build the presentation (make_slides.py)
+python-pptx>=1.0.2
+
+# Run the notebooks
+notebook>=7.3.2
+ipykernel>=7.0.1
