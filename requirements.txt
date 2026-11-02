@@ -17,9 +17,6 @@ scikit-image>=0.25.0
 # Rebuild the WikiArt subset (make_wikiart_subset.py)
 datasets>=3.0
 
-# Build the presentation (make_slides.py)
-python-pptx>=1.0.2
-
 # Run the notebooks
 notebook>=7.3.2
 ipykernel>=7.0.1
